@@ -1,0 +1,58 @@
+body{
+    font-family: "Times New Roman", serif;
+}
+.navbar-brand{
+    font-family: 'Merriweather', serif;
+}
+.navbar-brand:hover{
+    color: #f4623a !important;
+}
+.nav-link{
+    font-family: 'Merriweather', serif;
+}
+.navbar-light .nav-link{
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: #f4623a !important;
+}
+.banners{
+    height: 100vh;
+    background: linear-gradient(rgba(81,69,60,0.8),rgba(81,69,60,0.8)),url("../assets/img/bg-masthead.jpg");
+    background-size: cover;
+}
+.banners p{
+    font-size: 23px;
+    color: #e3e3e3;
+}
+.divide{
+    width: 80px;
+    background: #f4623a;
+    padding: 2px 0;
+    opacity: 1;
+}
+.banners-heading{
+    font-family: 'Merriweather', serif;
+}
+.banners-btn{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    background: #f4623a;
+}
+.banners-btn:hover{
+    background-color: #c94d2a;
+}
+
+#about>div{
+    height: 45vh;
+    background-color: #f4623a;
+}
+.about hr{
+    background-color: #fff;
+}
+.about p{
+    color: #e3e3e3;
+    font-size: 20px;
+
+    padding: 0 70px;
+}
