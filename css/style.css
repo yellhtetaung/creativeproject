@@ -16,8 +16,7 @@ body{
 .nav-link:hover{
     color: #f4623a !important;
 }
-.banners{
-    height: 100vh;
+#home>div{
     background: linear-gradient(rgba(81,69,60,0.8),rgba(81,69,60,0.8)),url("../assets/img/bg-masthead.jpg");
     background-size: cover;
 }
@@ -89,11 +88,6 @@ body{
 .download-section h1{
     font-family: 'Merriweather', serif;
 }
-
-#contact>div{
-    height: 100vh;
-}
-
 #message{
     height: 150px;
 }
@@ -108,9 +102,6 @@ footer{
 }
 
 @media (max-width: 992px) {
-    .banners{
-        height: 60vh;
-    }
     .banners h1{
         font-size: 35px;
     }
