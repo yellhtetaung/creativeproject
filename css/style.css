@@ -22,11 +22,11 @@ body{
     background-size: cover;
 }
 .banners p{
-    font-size: 23px;
+    font-size: 22px;
     color: #e3e3e3;
 }
 .divide{
-    width: 80px;
+    width: 50px;
     background: #f4623a;
     padding: 2px 0;
     opacity: 1;
@@ -36,7 +36,6 @@ body{
 }
 .banners-btn{
     font-family: 'Merriweather', serif;
-    font-size: 18px;
     background: #f4623a;
 }
 .banners-btn:hover{
@@ -44,7 +43,7 @@ body{
 }
 
 #about>div{
-    height: 45vh;
+    /*height: 60vh;*/
     background-color: #f4623a;
 }
 .about hr{
@@ -55,4 +54,72 @@ body{
     font-size: 20px;
 
     padding: 0 70px;
+}
+
+#service>div{
+    /*height: 60vh;*/
+}
+#service h1{
+    font-family: 'Merriweather', serif;
+}
+#service p{
+    font-size: 20px;
+    color: gray;
+}
+.service-icons{
+    color: #f4623a;
+}
+#portfolio .row>div{
+    cursor: pointer;
+    position: relative;
+}
+.portfolio-card{
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+    visibility: hidden;
+}
+#portfolio .row>div:hover .portfolio-card{
+    transition: all 0.8s;
+    background-color: rgba(244,98,58,0.9);
+    display: block;
+    visibility: visible;
+}
+.download-section h1{
+    font-family: 'Merriweather', serif;
+}
+
+#contact>div{
+    height: 100vh;
+}
+
+#message{
+    height: 150px;
+}
+
+#contact form button{
+    background-color: #f4623a;
+}
+
+footer{
+    height: 9vh;
+    background-color: #e3e3e3;
+}
+
+@media (max-width: 992px) {
+    .banners{
+        height: 60vh;
+    }
+    .banners h1{
+        font-size: 35px;
+    }
+    .banners p{
+        font-size: 18px;
+    }
 }

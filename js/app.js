@@ -26,3 +26,7 @@ window.addEventListener("resize", (function onResize () {
     }
     return onResize;
 })());
+
+// for footer
+let getYear = new Date().getFullYear();
+document.getElementById('year').textContent = getYear;
