@@ -43,7 +43,6 @@ body{
 }
 
 #about>div{
-    /*height: 60vh;*/
     background-color: #f4623a;
 }
 .about hr{
@@ -54,10 +53,6 @@ body{
     font-size: 20px;
 
     padding: 0 70px;
-}
-
-#service>div{
-    /*height: 60vh;*/
 }
 #service h1{
     font-family: 'Merriweather', serif;
@@ -108,7 +103,7 @@ body{
 }
 
 footer{
-    height: 9vh;
+    font-family: 'Merriweather', serif;
     background-color: #e3e3e3;
 }
 
